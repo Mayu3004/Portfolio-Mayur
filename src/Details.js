@@ -36,7 +36,7 @@ export const personalDetails = {
   tagline: "Jack of all trades ! Master of self !! ",
   img: profile,
   about: `Hi Everyone, I am  Mayur Limbhore from Pune, India.
-  Pursuing a Bachelor's degree in Computer Engineering from SAVITRIBAI PHULE PUNE UNIVERSITY. Proficient in JAVA, PYTHON, and WEB TECHNOLOGIES. Strong willingness to exhibit my proficiency in Analytical tools, Statistics and Computing Methodologies in the professional environment.`
+  Pursuing a Bachelor's degree in Computer Engineering from SAVITRIBAI PHULE PUNE UNIVERSITY. Proficient in JAVA, OOPs, and WEB TECHNOLOGIES. Strong willingness to exhibit my proficiency in Analytical tools, Statistics and Computing Methodologies,with developer as a base in the professional environment.`
  
   
 };
@@ -52,18 +52,18 @@ export const socialMediaUrl = {
 
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `DevTown`,
-    Location: "Bengaluru",
-    Type: "Intern",
-    Duration: "Sep 2022 - Nov 2022",
-  },
-  {
     Position: "Trainee",
     Company: `Zensar`,
     Location: "Pune",
+    Type: "Intern",
+    Duration: "Oct 2022 - Nov 2022",
+  },
+  {
+    Position: "Cloud Intern",
+    Company: `KasNet Technologies Pvt.Ltd`,
+    Location: "Pune",
     Type: "Internship",
-    Duration: " Oct 2022 - Nov 2022",
+    Duration: " Jan 2023 - March 2023",
   },
 
 ];
@@ -110,10 +110,10 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
-    title: "UpMenu-Easy to order.",
+    title: "Cab Management System",
     image: projectImage1,
-    description: `Here we made a project where you can order your food using scanning the  QR CODE and easily get your token number.`,
-    techstack: "HTML/CSS, JavaScript ReactJS",
+    description: `A management system with adim and client login where client can book the cab and admin keeps track of all the bookings.`,
+    techstack: "Java/AWT,Swing,SQL",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
@@ -129,7 +129,7 @@ export const projectDetails = [
     title: "Car Race registration form",
     image: projectImage3,
     description: `Made a registration form for entry in a car race.Made using Html And Css. It has a good interface so user can use it in a good way.`,
-    techstack: "HTML/CSS",
+    techstack: "HTML/CSS  BootStrap",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },

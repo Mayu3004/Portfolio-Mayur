@@ -1,5 +1,7 @@
 import React from "react";
 import { contactDetails } from "../Details";
+import pdf from "../assets/MAYUR_RESUME.pdf";
+
 
 function Contact() {
   const { email, phone } = contactDetails;
@@ -15,6 +17,17 @@ function Contact() {
       <h3 className="text-center text-3xl md:text-4xl lg:text-6xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
         <a href={`tel:${phone}`}>{phone}</a>
       </h3>
+            <span className="text-center text-content text-xl font-light block">
+        or
+      </span>
+      <h2 className="text-center text-3xl md:text-4xl lg:text-4xl text-gradient font-semibold md:font-bold pt-2 md:py-6">
+        <a
+          href={pdf}
+          download={true}
+        >
+          Download Resume
+        </a>
+      </h2>
     </main>
   );
 }
